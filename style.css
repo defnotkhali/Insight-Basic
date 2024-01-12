@@ -255,6 +255,31 @@ font-weight:600;
   gap:5rem;
   justify-content: center;
 }
+/*  PROJECTS */
+.project__wrapper{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+}
+.project_item img{
+  width:100%;
+}
+.project_item{
+position:relative;
+
+
+}
+.project_overlay{
+  position:absolute;
+  top:0;
+  left0;
+  width:100%;
+  height:100%;
+  background:rbga(0%,0%,0%,.5);
+ display:block;
+
+
+
+}
 /* REPEATABLE PATTERNS */
 .btn{
  display:inline-block;
